@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.logotipo {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    border-style: groove;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.logotipo img {
+    margin: 10px;
+}
+
+.carossel {
+    background-color: blue;
+}
+
+.selecaoitems {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ajus {
+    margin: 10px 10px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+
+}
+.ajus img{
+    width: 50px;
+}
+.ajus p {
+    margin: 10px;
+}
+.aluguel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.alu {
+    margin: 30px 10px;
+}
+
+.corblue {
+    background-color: rgb(20, 146, 146);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.corblack {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
