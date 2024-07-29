@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.perf{
+    margin: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.055);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.seuid{
+    display: inline-block;
+     margin: 0px 20px;
+     
+}
+.seuid p{
+    margin: 10px 0px;
+}
+.quadro{
+    background-image: repeating-radial-gradient(rgb(21, 21, 189),blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px 2px 2px white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.quadro img{
+    margin: 20px;
+}
+.quadroicon p {
+    margin: 15px;
+    color: white;
+}
+.resgatar{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(238, 130, 238, 0.123);
+    margin: 20px;
+}
+.coletar{
+    background-color: rgba(0, 0, 255, 0.658);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.resgatar img{
+    width: 50px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+.recarga{
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin: 10px;
+    padding: 10px;
+}
+.recarga img{
+    width: 40px;
+}
+.sacar {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.sacar img{
+    width: 40px;
+}
+.seuVip{
+    color: white;
+    padding: 2px;
+    margin: 0px;
+    background-color: orange;
+    border-radius: 10px;
+}

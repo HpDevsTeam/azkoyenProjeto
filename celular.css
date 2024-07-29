@@ -69,3 +69,22 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+.menus {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.it1 {
+    padding: 10px;
+}
+.it1 img{
+    width: 40px;
+}
+.casa a {
+    color: black;
+}
+
+.casa a:hover {
+    color: brown;
+}
